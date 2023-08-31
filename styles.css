@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin: 20px;
+    padding: 20px;
+    background-color: #4A4A4A;
+    color: #fff;
+}
+#home {
+    background-color: #4A4A4A;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow:hidden;
+    transition: transform 0.5s ease-in-out;
+}
+
+#specialization{
+    /* background-color: #1B1B1B; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+#resume {
+    /* background-color: #78797C; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+#articles {
+    background-color: #1B1B1B;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+#contact {
+    background-color: #5e4646;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+#experience{
+    background-color: #576fa5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    float: left;
+
+}
+#hamburger-menu {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#hamburger {
+    cursor: pointer;
+}
+
+
+
+#bar {
+    /* right: 20px;
+    width: 30px; */
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#menu.active {
+    display: block;
+}
+
+#menu li {
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5,#btn6{
+
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: fixed;
+
+    width: 24px;
+    height: 24px;
+    background-color: aqua;
+    color: aquamarine;
+    border: 1px solid #333;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btn1{
+    position: fixed;
+    top: 170px;
+    right: 20px;
+}
+#btn2{
+    position: fixed;
+    top: 223px;
+    right: 20px;
+}
+#btn3{
+    position: fixed;
+    bottom: 170px;
+    right: 20px;
+}
+#btn4{
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+}
+#btn5 {
+    position: fixed;
+    bottom:70px;
+    right: 20px;
+}
+#btn6 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+
+
+
+
+img{
+    position: absolute;
+    float:right;
+    right: 43px; 
+    top: 54px;
+    cursor: pointer;
+}
